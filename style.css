@@ -1,7 +1,9 @@
 /* index.html */
 
+/* nav bar */
+
 #header {
-    background-color: rgb(243, 172, 255);
+    background-color: rgb(232, 140, 232);
     padding: 20px 0px;
 }
 
@@ -16,9 +18,49 @@
 }
 
 .social-links a:hover {
-    color: rgb(76, 76, 208)
+    color: rgb(232, 140, 232);
 }
 
 .navbar ul {
-    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.navbar li {
+    position: relative;
+    padding: 10px 0 10px 30px;
+}
+
+.navbar a:hover, .navbar.active {
+    font-weight: bold;
+}
+
+/* hero */
+
+#hero {
+    width: 100%;
+    height: auto;
+    background: url("photos/sunset.jpg") top right;
+    background-size: cover;
+}
+
+#hero.btn-about {
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 2px;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin-top: 30px;
+    background-color: rgb(232, 140, 232);
+}
+
+#hero.btn-about:hover {
+    background: rgb(246, 45, 119);
 }
