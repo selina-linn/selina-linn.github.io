@@ -31,7 +31,7 @@
 
 .navbar li {
     position: relative;
-    padding: 10px 0 10px 30px;
+    padding: 10px 0 10px 10px;
 }
 
 .navbar a:hover, .navbar.active {
@@ -42,12 +42,12 @@
 
 #hero {
     width: 100%;
-    height: auto;
+    height: 100%;
     background: url("photos/sunset.jpg") top right;
     background-size: cover;
 }
 
-#hero.btn-about {
+.btn-about {
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     font-weight: bold;
@@ -61,6 +61,6 @@
     background-color: rgb(232, 140, 232);
 }
 
-#hero.btn-about:hover {
+.btn-about:hover {
     background: rgb(246, 45, 119);
 }
