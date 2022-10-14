@@ -27,6 +27,7 @@ body, html {
 }
 
 nav {
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,25 +35,20 @@ nav {
 
 .navbar ul {
     list-style: none;
-    margin: 0;
+    margin: auto;
     padding: 0;
     display: inline-block;
     align-items: center;
 }
 
-.navbar li {
-    align-items: center;
-    position: relative;
-    padding: 5px 20px 5px 20px;
-}
-
-.navbar a,
-.navbar a:focus {
+.navbar li a,
+.navbar li a:focus {
     display: flex;
     font-family: "Raleway", sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: bold;
     text-decoration: none;
+    padding: 15px 20px;
     align-items: center;
     justify-content: space-between;
     position: relative;
