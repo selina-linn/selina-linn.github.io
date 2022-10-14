@@ -84,6 +84,7 @@ nav {
 
 #hero .container {
     padding-top: 100px;
+    position: relative;
 }
 
 .btn-about {
