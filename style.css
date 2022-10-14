@@ -36,7 +36,7 @@ nav {
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;
+    display: inline-block;
     align-items: center;
 }
 
