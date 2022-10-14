@@ -27,7 +27,6 @@ body, html {
 }
 
 nav {
-    margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,19 +34,34 @@ nav {
 
 .navbar ul {
     list-style: none;
+<<<<<<< HEAD
+=======
+    margin: 0;
+>>>>>>> parent of 9a563fc (Update style.css)
     padding: 0;
     display: flex;
     align-items: center;
 }
 
+<<<<<<< HEAD
 .navbar li a,
 .navbar li a:focus {
     display: inline-block;
+=======
+.navbar li {
+    align-items: center;
+    position: relative;
+    padding: 5px 20px 5px 20px;
+}
+
+.navbar a,
+.navbar a:focus {
+    display: flex;
+>>>>>>> parent of 9a563fc (Update style.css)
     font-family: "Raleway", sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: bold;
     text-decoration: none;
-    padding: 15px 20px;
     align-items: center;
     justify-content: space-between;
     position: relative;
