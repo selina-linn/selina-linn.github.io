@@ -57,11 +57,11 @@ nav {
     position: relative;
 }
 
-.navbar a:hover, .navbar.active {
+.navbar a:hover, .navbar ul li a.active {
     color: white;
     font-weight: bold;
     text-decoration: none;
-    border-bottom: 5px solid midnightblue;
+    border-bottom: 3px solid midnightblue;
 }
 
 .navbar ul a:hover,
