@@ -82,8 +82,8 @@ nav {
     color: white;
 }
 
-#hero-text {
-    
+#hero .container {
+    padding-top: 100px;
 }
 
 .btn-about {
