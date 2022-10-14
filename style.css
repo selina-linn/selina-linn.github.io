@@ -3,7 +3,7 @@
 /* nav bar */
 
 #header {
-    background-color: midnightblue;
+    background-color: skyblue;
     padding: 10px 0px;
 }
 
@@ -37,10 +37,10 @@
 .navbar a,
 .navbar a:focus {
     display: flex;
-    color: white;
     font-family: "Raleway", sans-serif;
     font-size: 15px;
     font-weight: bold;
+    text-decoration: none;
     align-items: center;
     justify-content: space-between;
     position: relative;
@@ -48,12 +48,14 @@
 
 .navbar a:hover, .navbar.active {
     font-weight: bold;
+    text-decoration: none;
 }
 
 .navbar ul a:hover,
 .navbar ul .active:hover,
 .navbar ul li:hover a {
     color: white;
+    border-bottom: 1px solid white;
 }
 
 /* hero */
@@ -79,9 +81,10 @@
     border-radius: 50px;
     transition: 0.5s;
     margin-top: 30px;
-    background-color: rgb(46, 46, 216);
+    background-color: skyblue;
 }
 
 .btn-about:hover {
-    background: rgb(246, 45, 119);
+    background: midnightblue;
+    color: white;
 }
