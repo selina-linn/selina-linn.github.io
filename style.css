@@ -4,7 +4,7 @@
 
 #header {
     background-color: rgb(232, 140, 232);
-    padding: 20px 0px;
+    padding: 10px 0px;
 }
 
 .social-links {
@@ -18,7 +18,7 @@
 }
 
 .social-links a:hover {
-    color: rgb(232, 140, 232);
+    color: blueviolet;
 }
 
 .navbar ul {
@@ -45,6 +45,7 @@
     height: 100%;
     background: url("photos/sunset.jpg") top right;
     background-size: cover;
+    color: white;
 }
 
 .btn-about {
