@@ -8,7 +8,7 @@ body, html {
 
 #header {
     background-color: skyblue;
-    padding: 8px 0px;
+    padding: 5px 0px;
 }
 
 .social-links {
@@ -61,7 +61,7 @@ nav {
     color: white;
     font-weight: bold;
     text-decoration: none;
-    border-bottom: 3px solid midnightblue;
+    border-bottom: 2px solid midnightblue;
 }
 
 .navbar ul a:hover,
@@ -79,14 +79,13 @@ nav {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    vertical-align: middle;
     color: white;
 }
 
 .btn-about {
     font-family: "Raleway", sans-serif;
-    text-transform: uppercase;
     text-decoration: none;
+    text-transform: uppercase;
     font-weight: bold;
     font-size: 12px;
     display: inline-block;
@@ -99,5 +98,6 @@ nav {
 
 .btn-about:hover {
     background: midnightblue;
+    text-decoration: none;
     color: white;
 }
