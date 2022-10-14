@@ -8,7 +8,7 @@ body, html {
 
 #header {
     background-color: skyblue;
-    padding: 10px 0px;
+    padding: 8px 0px;
 }
 
 .social-links {
@@ -19,6 +19,7 @@ body, html {
     color: rgb(86, 86, 86);
     display: inline-block;
     font-size: 18px;
+    padding: 5px;
 }
 
 .social-links a:hover {
@@ -51,15 +52,16 @@ body, html {
 }
 
 .navbar a:hover, .navbar.active {
+    color: white;
     font-weight: bold;
     text-decoration: none;
+    border-bottom: 5px solid midnightblue;
 }
 
 .navbar ul a:hover,
 .navbar ul .active:hover,
 .navbar ul li:hover a {
     color: white;
-    border-bottom: 1px solid white;
 }
 
 /* hero */
