@@ -54,23 +54,22 @@ body, html {
     position: relative;
 }
 
-.navbar a:hover:after, .navbar ul li a.active:after {
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
-    position: absolute;
-    width: 75%;
-    display: block;
+.navbar ul li a{
+    width: 0;
     height: 2px;
-    background-color: midnightblue;
     bottom: -5px;
+    content: "";
+    position: absolute;
+    visibility: hidden;
+    background-color: midnightblue;
+    transition: all 0.5s;
 }
 
-.navbar ul a:hover,
-.navbar ul .active:hover,
-.navbar ul li:hover a {
-    color: white;
+.navbar ul li a:hover {
+    visibility: hidden;
+    width: 75%;
 }
+
 
 /* index.html */
 
@@ -115,5 +114,4 @@ body, html {
     font-size: 48px;
     font-family: "Lucida Handwriting", cursive;
     text-align: center;
-    
 }
