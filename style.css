@@ -2,8 +2,6 @@ body, html {
     height: 100%;
 }
 
-/* index.html */
-
 /* nav bar */
 
 #header {
@@ -69,6 +67,8 @@ body, html {
     color: white;
 }
 
+/* index.html */
+
 /* hero */
 
 #hero {
@@ -103,4 +103,12 @@ body, html {
     background: midnightblue;
     text-decoration: none;
     color: white;
+}
+
+/* about.html */
+.introduction h1 {
+    font-size: 48px;
+    font-family: "Lucida Handwriting", cursive;
+    text-align: center;
+    
 }
