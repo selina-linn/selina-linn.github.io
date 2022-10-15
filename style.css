@@ -47,24 +47,6 @@ body, html {
     position: relative;
 }
 
-/* @media (max-width: 768px) {
-    .topnav {
-        overflow: hidden;
-    }
-    .topnav a {
-        float: left;
-        color: white;
-        display: block;
-        text-align: center;
-        padding: 15px 15px;
-        text-decoration: none;
-        font-size: 14px;
-        font-family: "Lucida Handwriting", cursive;
-        font-weight: bold;
-        position: relative;
-    }
-} */
-
 .topnav a:hover {
     color: navy;
 }
@@ -101,7 +83,16 @@ body, html {
 
 @media (max-width: 768px) {
     .topnav {overflow: hidden;}
-    .topnav a {display: none;}
+    .topnav a, .topnav a:focus {
+        float: left;
+        display: none;
+        text-align: center;
+        padding: 0.5rem 2rem 0 1rem;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: bold;
+        font-family: "Lucida Handwriting", cursive;
+    }
     .topnav a.icon {
         float: left;
         display: block;
