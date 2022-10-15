@@ -8,9 +8,6 @@ body, html {
 
 #header {
     background-color: skyblue;
-}
-
-#header #container-fluid {
     padding-top: 5px;
     padding-bottom: 5px;
 }
