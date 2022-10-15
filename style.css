@@ -43,28 +43,38 @@ body, html {
 
 .navbar li a,
 .navbar li a:focus {
-    display: inline-block;
-    font-family: sans-serif;
-    font-size: 18px;
-    font-weight: bold;
+    color: white;
     text-decoration: none;
-    padding: 10px 10px;
+    display: inline-block;
+    font-family: "Lucida Handwriting", cursive;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0.5rem 2rem 0 1rem;
     align-items: center;
     justify-content: space-around;
     position: relative;
 }
 
-.navbar a:hover, .navbar ul li a.active {
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
-    border-bottom: 2px solid midnightblue;
+.navbar li a:after {
+    position: absolute;
+    content: "";
+    display: block;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    line-height: 1;
+    width: 100%;
+    background-color: midnightblue;
+    transform-origin: right bottom;
+    transform: scaleX(0);
+    transition: transform 0.5s linear
 }
 
-.navbar ul a:hover,
-.navbar ul .active:hover,
-.navbar ul li:hover a {
-    color: white;
+.navbar li a:hover:after,
+.navbar li .active:after {
+    transform: scaleX(1);
+    transform-origin: left bottom;
+    transition: transform 0.5s linear;
 }
 
 /* index.html */
