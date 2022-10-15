@@ -54,22 +54,18 @@ body, html {
     position: relative;
 }
 
-.navbar ul li a{
-    width: 0;
-    height: 2px;
-    bottom: -5px;
-    content: "";
-    position: absolute;
-    visibility: hidden;
-    background-color: midnightblue;
-    transition: all 0.5s;
+.navbar a:hover, .navbar ul li a.active {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 2px solid midnightblue;
 }
 
-.navbar ul li a:hover {
-    visibility: hidden;
-    width: 75%;
+.navbar ul a:hover,
+.navbar ul .active:hover,
+.navbar ul li:hover a {
+    color: white;
 }
-
 
 /* index.html */
 
