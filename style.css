@@ -26,7 +26,6 @@ body, html {
 }
 
 .topnav {
-    overflow: hidden;
     margin: auto;
     padding: 0 0;
     display: flex;
@@ -46,6 +45,24 @@ body, html {
     align-items: center;
     justify-content: space-around;
     position: relative;
+}
+
+@media (max-width: 768px) {
+    .topnav {
+        overflow: hidden;
+    }
+    .topnav a {
+        float: left;
+        color: white;
+        display: block;
+        text-align: center;
+        padding: 15px 15px;
+        text-decoration: none;
+        font-size: 14px;
+        font-family: "Lucida Handwriting", cursive;
+        font-weight: bold;
+        position: relative;
+    }
 }
 
 .topnav a:hover {
