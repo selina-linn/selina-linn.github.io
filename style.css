@@ -92,7 +92,7 @@ body, html {
 
 @media screen and (max-width: 768px) {
     .topnav a.icon {
-        float: left;
+        float: right;
         display: block;
     }
 }
@@ -101,9 +101,9 @@ body, html {
     .topnav.responsive {position: relative;}
     .topnav.responsive a.icon {
         position: absolute;
-        left: 0;
+        right: 0;
         top: 0;
-        padding-left: 15px;
+        padding-right: 15px;
     }
     .topnav.responsive a {
         float: none;
