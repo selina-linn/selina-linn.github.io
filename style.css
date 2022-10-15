@@ -2,8 +2,27 @@ body, html {
     height: 100%;
 }
 
-/* nav bar */
+/* next button */
+.next-page {
+    font-family: "Lucida Handwriting", cursive;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin-top: 30px;
+    background-color: skyblue;
+}
 
+.next-page:hover {
+    background: midnightblue;
+    text-decoration: none;
+    color: white;
+}
+
+/* nav bar */
 #header {
     background-color: skyblue;
     padding-top: 5px;
@@ -87,7 +106,6 @@ body, html {
 /* index.html */
 
 /* hero */
-
 .hero {
     width: 100%;
     height: 100%;
@@ -108,27 +126,8 @@ body, html {
     font-family: "Lucida Handwriting", cursive;
 }
 
-.next-page {
-    font-family: "Lucida Handwriting", cursive;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 12px;
-    display: inline-block;
-    padding: 10px 30px;
-    border-radius: 50px;
-    transition: 0.5s;
-    margin-top: 30px;
-    background-color: skyblue;
-}
-
-.next-page:hover {
-    background: midnightblue;
-    text-decoration: none;
-    color: white;
-}
-
 /* about.html */
-.introduction h1 {
+.about h1 {
     font-size: 48px;
     font-family: "Lucida Handwriting", cursive;
     text-align: center;
