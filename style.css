@@ -103,8 +103,9 @@ body, html {
 @media (max-width: 768px) {
     .topnav a {display: none;}
     .topnav a.icon {
-        display: flex;
-        justify-content: flex-start;
+        align-self: flex-start;
+        float: left;
+        display: block;
     }
 }
 
@@ -114,7 +115,6 @@ body, html {
         position: absolute;
         left: 0;
         top: 0;
-        margin-left: 15px;
     }
     .topnav.responsive a {
         float: none;
