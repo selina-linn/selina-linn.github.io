@@ -128,3 +128,10 @@ body, html {
     font-family: "Lucida Handwriting", cursive;
     text-align: center;
 }
+
+/* contact.html */
+#contact .container h1 {
+    padding-top: 200px;
+    font-size: 48px;
+    font-family: 'Lucida Handwriting', cursive;
+}
