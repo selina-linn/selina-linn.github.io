@@ -84,69 +84,6 @@ body, html {
     transition: transform 0.5s linear;
 }
 
-/* Responsive Navbar from https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/ */
-
-/* CHECKBOX HACK */
-input[type=checkbox]{
-    display: none;
-}
-
-/*HAMBURGER MENU*/
-.hamburger {
-    display: none;
-    font-size: 24px;
-    user-select: none;
-}
-
-/* APPLYING MEDIA QUERIES */
-@media (max-width: 768px) {
-    li a { 
-    display: none;
-    position: absolute;
-    background-color:skyblue;
-    right: 0;
-    left: 0;
-    text-align: center;
-    padding: 16px 0;
-    }
-
-    li:hover {
-    display: inline-block;
-    color: navy;
-    transition: 0.3s ease;
-    }
-
-    input[type=checkbox]:checked ~ li{
-    display: block;
-    }
-
-    .hamburger {
-    display: block;
-    }
-
-    .navbar li a:after {
-        position: absolute;
-        content: "";
-        display: block;
-        bottom: 0;
-        left: 0;
-        height: 2px;
-        line-height: 1;
-        width: 100%;
-        background-color: midnightblue;
-        transform-origin: right bottom;
-        transform: scaleX(0);
-        transition: transform 0.5s linear
-    }
-    
-    .navbar li a:hover:after,
-    .navbar li .active:after {
-        transform: scaleX(1);
-        transform-origin: left bottom;
-        transition: transform 0.5s linear;
-    }
-}
-
 /* index.html */
 
 /* hero */
