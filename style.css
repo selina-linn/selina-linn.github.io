@@ -54,11 +54,16 @@ body, html {
     position: relative;
 }
 
-.navbar a:hover, .navbar ul li a.active {
+.navbar a:hover:after, .navbar ul li a.active:after {
     color: white;
     font-weight: bold;
     text-decoration: none;
-    border-bottom: 2px solid midnightblue;
+    position: absolute;
+    width: 75%;
+    display: block;
+    height: 2px;
+    background-color: midnightblue;
+    bottom: -5px;
 }
 
 .navbar ul a:hover,
