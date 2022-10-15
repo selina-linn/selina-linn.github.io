@@ -26,7 +26,6 @@ body, html {
 }
 
 .topnav {
-    overflow: hidden;
     margin: auto;
     padding: 0 0;
     display: flex;
@@ -101,9 +100,9 @@ body, html {
 }
 
 @media (max-width: 768px) {
+    .topnav {overflow: hidden;}
     .topnav a {display: none;}
     .topnav a.icon {
-        align-self: flex-start;
         float: left;
         display: block;
     }
