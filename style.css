@@ -56,6 +56,10 @@ body, html {
     position: relative;
 }
 
+.navbar li a:hover {
+    color: navy;
+}
+
 .navbar li a:after {
     position: absolute;
     content: "";
