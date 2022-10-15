@@ -34,7 +34,7 @@ body, html {
 }
 
 .social-links a {
-    color: rgb(86, 86, 86);
+    color: white;
     display: inline-block;
     font-size: 18px;
     padding: 5px;
@@ -127,10 +127,40 @@ body, html {
 }
 
 /* about.html */
+.about {
+    padding-top: 80px;
+    width: 100%;
+    height: auto;
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url("photos/sunset.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white
+}
 .about h1 {
     font-size: 48px;
     font-family: "Lucida Handwriting", cursive;
     text-align: center;
+}
+
+.about img {
+    border-radius: 75%;
+}
+
+.about .row {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+}
+
+.about .icon {
+    color: skyblue;
+    display: inline-block;
+    justify-content: cneter;
+    font-size: 84px;
+}
+
+.about h4 {
+    font-size: 18px
 }
 
 /* contact.html */
