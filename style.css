@@ -100,7 +100,7 @@ input[type=checkbox]{
 
 /* APPLYING MEDIA QUERIES */
 @media (max-width: 768px) {
-    .menu { 
+    li a { 
     display: none;
     position: absolute;
     background-color:skyblue;
@@ -110,17 +110,13 @@ input[type=checkbox]{
     padding: 16px 0;
     }
 
-    .menu li:hover {
+    li:hover {
     display: inline-block;
     color: navy;
     transition: 0.3s ease;
     }
 
-    .menu li + li {
-    margin-top: 12px;
-    }
-
-    input[type=checkbox]:checked ~ .menu{
+    input[type=checkbox]:checked ~ li{
     display: block;
     }
 
