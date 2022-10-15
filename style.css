@@ -26,7 +26,7 @@ body, html {
 }
 
 .topnav {
-    list-style: none;
+    overflow: hidden;
     margin: auto;
     padding: 0 0;
     display: flex;
