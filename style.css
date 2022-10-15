@@ -108,7 +108,7 @@ body, html {
     font-family: "Lucida Handwriting", cursive;
 }
 
-.btn-about {
+.next-page {
     font-family: "Lucida Handwriting", cursive;
     text-decoration: none;
     font-weight: bold;
@@ -121,7 +121,7 @@ body, html {
     background-color: skyblue;
 }
 
-.btn-about:hover {
+.next-page:hover {
     background: midnightblue;
     text-decoration: none;
     color: white;
