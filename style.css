@@ -22,7 +22,7 @@ body, html {
 }
 
 .social-links a:hover {
-    color: blueviolet;
+    color: navy;
 }
 
 .navbar {
@@ -70,7 +70,7 @@ body, html {
     left: 0;
     height: 2px;
     line-height: 1;
-    width: 100%;
+    width: 90%;
     background-color: midnightblue;
     transform-origin: right bottom;
     transform: scaleX(0);
