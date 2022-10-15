@@ -45,7 +45,7 @@ nav {
 .navbar li a,
 .navbar li a:focus {
     display: inline-block;
-    font-family: "Raleway", sans-serif;
+    font-family: sans-serif;
     font-size: 18px;
     font-weight: bold;
     text-decoration: none;
@@ -86,7 +86,7 @@ nav {
 }
 
 .btn-about {
-    font-family: "Raleway", sans-serif;
+    font-family: "Lucida Handwriting", cursive;
     text-decoration: none;
     font-weight: bold;
     font-size: 12px;
