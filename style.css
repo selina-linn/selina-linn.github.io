@@ -166,7 +166,8 @@ body, html {
 /* album.html */
 .album {
     background-color: #dbf3fa;
-    padding-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 50px;;
 }
 
 .album h4 {
