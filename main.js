@@ -34,6 +34,9 @@ function topFunction() {
             event.preventDefault()
             event.stopPropagation()
         }
+        else {
+            alert('Message sent successfully!');
+        }
 
         form.classList.add('was-validated')
         }, false)
