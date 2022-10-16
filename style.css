@@ -169,4 +169,8 @@ body, html {
     padding-top: 20px;
 }
 
+.album h4 {
+    color: blue;
+}
+
 /* contact.html */
