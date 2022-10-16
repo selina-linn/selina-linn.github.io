@@ -163,4 +163,10 @@ body, html {
     font-size: 18px
 }
 
+/* album.html */
+.section {
+    background-color: #dbf3fa;
+    padding-top: 20px;
+}
+
 /* contact.html */
